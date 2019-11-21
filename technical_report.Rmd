@@ -28,7 +28,8 @@ Autumn 2019
 
 #### 2.0 Research Questions:
 * **Question 1:** What is the accessibility to grocery outlet for each county within Washington state?
-* **Question 2:** How do individual socio-economic factors such as locations and incomes contribute to food access?
+* **Question 2:** To what extent does income relative to location, have an effect on access to 
+fresh and nutritious food?
 * **Question 3:** How do neighborhood socio-economic factors such as public transportation and incomes contribute to food access?
 
 #### 3.0 The Data Set:
