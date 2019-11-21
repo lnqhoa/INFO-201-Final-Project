@@ -1,0 +1,78 @@
+INFO 201: Technical Foundations of Informatics
+
+The Information School
+
+University of Washington
+
+Autumn 2019
+# Part 2: Technical Report
+## **"Food Availability in Washington State"**
+
+#### Code Name: **Food for Thoughts**.
+### **INFO 201 FINAL PROJECT**
+
+
+
+
+
+
+#### Team Members:
+* **Anna Bloch**
+* **Hoa Le** (lnqhoa@uw.edu | (425)-365-7809)
+* **Jess Suresh**
+* **Richard Dait**
+
+#### 1.0 Introduction:
+* Problem Situation:
+* Problem Description:
+* Why It Matters:
+* How It will be Addressed:
+
+#### 2.0 Research Questions:
+* Question 1:
+* Question 2:
+
+#### 3.0 The Data Set:
+* Creator:
+* Reasons behind Dataset:
+* Access through USDA government
+(https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/#Current%20Version)
+* Because this is a huge data set and our limited coding skills along with our research questions, we will only be using values that reflect on Washington state.
+* Representation of an "Observation":
+* Variables:
+* Data set Size:
+  - The data frame that is used for this project will be a sub-set of a larger data set. Reasons are listed above.
+  - How the Sub-set was Created:
+* Population Involved:
+* Data set's Strengths:
+* Data set's Weaknesses:
+* Data Wrangling Method:
+  - Organization:
+  - Reshape:
+  - N/A Values:
+  - Including in under the "data" file is "Dataset Info" with a descriptive explanation of the variables names, how they are recorded and calculated.
+  - In addition, for easier access and usage, our team will create a text file "Data Dictionary" to include only the variables we choose to use with their meanings.
+
+#### 4.0 Information Visualization:
+
+#### 5.0 Technical Description of Shiny Application:
+* How We Load the Data:
+* Major Libraries Used:
+* Code Organization (Directories and Code File - Text File with Code Names):
+* Questions We will Answer with Statistical Analysis:
+
+#### 6.0 Conclusion:
+* Project's Strengths and Weaknesses:
+* Main Lessons:
+* Future Works:
+
+#### 7.0 Reference:
+
+#### Acknowledgements:
+
+#### Appendix 1 Data Dictionary:
+_MAYBE WE CAN JUST GIVE A LINK TO A SEPERATE DOC FILE_
+
+#### Appendix 2 Reflections:
+
+#### Appendix 3 Use of Envisioning Cards:

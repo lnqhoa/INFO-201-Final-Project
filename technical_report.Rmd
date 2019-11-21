@@ -1,0 +1,93 @@
+INFO 201: Technical Foundations of Informatics
+
+The Information School
+
+University of Washington
+
+Autumn 2019
+
+# **Part 2: Technical Report**
+
+## **"Food Accessibility in Washington State"**
+
+#### Code Name: **Food for Thoughts**.
+### **INFO 201 FINAL PROJECT**
+
+
+#### Team Members:
+* **Anna Bloch** (anbloch@uw.edu | (425)-205-8496)
+* **Hoa Le** (lnqhoa@uw.edu | (425)-365-7809)
+* **Jess Suresh** (jessals@uw.edu | (206)-470-9756)
+* **Richard Dait** (richuwm3@uw.edu) | 925.446.0246
+  
+  #### 1.0 Introduction:
+  * **Problem Situation:** Our focus is on food availability in Washington state. To address this issue, we will look at food access (vehicle access and public transportation) and the underlying inequity (i.e. income). The direct stakeholders are Washington residents who lack access to fresh food; whereas, indirect stakeholders are supermarkets, farmers, public interest groups and policymakers. What is at stake are the well-being of those directly impacted. A few values that are in play are exercising one's right to nutritious food, educating on inequities, servicing others and building a strong community. An ethics element is that eating a healthy meal is a basic human right.
+* **Problem Description:** After evaluating several different datasets, our team decided to change the problems that we wanted to tackle initially. Instead of inspecting economic differences, we wanted to focus on the low income population and hypothesize what might have cause the disproportionate in food accessibility.
+* **Why It Matters:** Food is vital to humans. Without food and its nutrition, we cannot survive. The quality of what we consume ultimately affects our health and life quality. ccording to the Dietary Guidelines 2015-2020 published by health.gov, around three-fourths of Americans lack proper nutrition. Therefore, it is imperative to acknowledge the ongoing issues related to food accessibility and availability. It directly impacts those underserved and unequal access to nutritious food, contributing to the rise in health-related problems. On the other hand, it indirectly affect all of us in some fashion. A well-informed public can lead to better solutions; thereby, prevent the problem from getting any bigger. Good nutrition is something many take for granted and are not aware of how prominent the problem of food deserts in Washington State are.
+* **How It will be Addressed:** We decided to break the data down by looking at how socio-economic factors play into the variation of quality of food consumed. Our project will examine how big of a player location and lack of transportation are. In most food deserts, fast-food restaurants outnumber grocery stores by a wide margin. This could explain why health related issues are abnormally high in these communities such as heart disease and diabetes. Lastly, we will look into income/affordability and what part it plays in the quality of food consumed by residents living in food deserts based on their access to supermarkets. We also want to compare between low income census tracts and see if any patterns arise where we can potentially see a trend leading to any solutions.
+
+#### 2.0 Research Questions:
+* **Question 1:** What is the accessibility to grocery outlet for each county within Washington state?
+* **Question 2:** How do individual socio-economic factors such as locations and incomes contribute to food access?
+* **Question 3:** How do neighborhood socio-economic factors such as public transportation and incomes contribute to food access?
+
+#### 3.0 The Data Set:
+* **Creator:** United States Department of Agriculture (USDA)
+* **Reasons behind Dataset:**
+    * Show food access indicators using different measures.
+    * Compare food access measures to previous years.
+    * View indicators of subpopulations.
+    * Public use of the information for community planning and research.
+    * Provide food access statistics based on current census tracts, hard statistics for users to analyze.
+    * Provide a spatial overview of access to food across the whole nation.
+* Access through USDA government
+[Originial Dataset](https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/#Current%20Version)
+* Because the original dataset is large and our team have limited coding experience, our research questions will only be framed around Washington State and its jurisdiction.
+* **Representation of an "Observation":** Initially, there were 72,865 observations in the dataset. We narrowed it down to 1,455 observations with 33 variables (further description in Data Dictionary, link below).
+* **Variables:** Originally, there were 66 variables. However, we narrowed it down to 31 variables that would be used to answer the three research questions.
+* **Dataset Size:**
+  - Data frame that is used for this project will be a sub-set of a larger dataset. Reasons as listed above.
+  - How the Sub-set was Created:
+* **Population Involved:** Washington residents.
+* **Dataset's Strengths:** There is a massive amount of data to work with, allowing us to work from a variety of observations.
+* **Data set's Weaknesses:** The original variables can be misleading and indecipherable to the average human. It was also in .xlsx format so we converted to a .cvs extension making it easier for the data to work with RStudio.
+* **Data Wrangling Method:**
+  - Organization: The variables are grouped into 4 categories - location indicators, accessibility to sources, individual-level resources and neighborhood-level indicators.
+  - Reshape: We only use observations from Washington State and reordered the columns to be next each other accordingly to its categories for simpler interpretation.
+  - Including in under the "data" file is "Dataset Info" with a descriptive explanation of the variables names, including how they are recorded and calculated.
+  - In addition, for easier access and usage, our team created a Google Excel file called "Data Dictionary" to include only the variables we choose to use with their definitions.
+
+#### 4.0 Information Visualization:
+We are approaching the dataset with the understanding that this dataset can be difficult to interpret at first glance, therefore in order to make it approachable and understandable for viewers and other interpreters of the information, we want to create vivid but also broad visualizations. By reshaping the dataset, we also want to be able to make it easy to compare food accessibility between different variables such as income, location, race and ethnicity so that we can be determine what variables have the most effect on food accessibility and how the issue can be resolved.
+
+
+#### 5.0 Technical Description of Shiny Application:
+* **How We Load the Data:** Data is loaded as a .csv file.
+* **Major Libraries Used:** dplyr, shiny, maps, ggplot2, tidyverse, plotly, leaflet, tidycensus
+* **Code Organization (Directories and Code File - Text File with Code Names):** Our dataset and sub dataset are located within a directory called "Data." The technical report as well as our Data Dictionary and more information are located within Github Wiki.
+* **Questions We will Answer with Statistical Analysis:** The questions we will answer with Statistical Analysis will be our research questions. We will answer how certain variables such as transportation, income, access to outside resources affect access to healthy nutritious food.
+
+#### 6.0 Conclusion:
+* **Project's Strengths and Weaknesses:** The strengths of our project are that the data we are analyzing and performing statistical analysis on can give us tangible results and help us to potentially find a solution to this large problem. The real world setting and the importance of this topic gives our project importance and value as what we're doing can impact and benefit hundreds of thousands of people. A weakness of our project is that due to the large dataset that we accessed, it wasn't feasible for us to analyzing all the data in the United States. Since it would be impractical to work with that amount of data, we had to limit our area to just Washington State and the county's resided in it as it makes the data more manageable.
+* **Main Lessons:** Some of the main lessons we learned as a group is the importance of good communication. When we lacked communication we would make a lot less progress as a group. When we had good communication we make a lot of progress and we all do things as a cohesive unit with full understanding of what needs to be done and what we need to do. We're all on the same page when we all communicate with each other and therefore work better and know what needs to be done. Another key lesson we learnt as a team is also the importance of good planning. Something we have really been striving to achieve more recently. Having good planning and delegation means again that our group works more efficiently and we all know what needs to be done. 
+* **Future Works:** Some of the future work we might pursue is with our Career. I (Jess) am a marketing major and I know that the skills I've picked up from this class will be extremely practical and relevant for my future especially with data analysis and information visualizations.
+
+#### 7.0 Reference:
+- USDA, Economic Research Service, https://www.ers.usda.gov/data-products/food-access-research-atlas/
+#### Acknowledgements: Kiran S. Pradhan has been instrumental in guiding us in the right direction. The other TAs have also been extremely helpful.
+
+#### Appendix 1 Data Dictionary:
+[Data Dictionary](https://drive.google.com/drive/u/0/folders/1xj_0acge0mpH08QPVMBMKy_2G9bX5bcp)
+
+#### Appendix 2 Reflections:
+- **Anna Bloch:** At the start of the project, our team had similar areas of interest but found it difficult to narrow down to one specific topic. I am fulfilled that we went with the issues of food accessibility in the United States as our final topic because not only the research and implications behind it have been interesting and eye opening, but we were able to find a reliable dataset from a well known source. I feel as though this motivated our team because we are working with an issue that is prominent in our state, but not many are aware of the impact.
+- **Hoa Le:** At first looking at the dataset was very intimidating because of how large it is. However, once I exam the dataset closer and getting used to the variables' names as well as its meanings, I have a clearer vision of what the team could do with the dataset. It has been challenging to communicate and meet up with all the team members at once hence seeing the project's progress on each member's part.
+- **Jessal Suresh:** Reflecting on this project it is clear to me that I have learnt a good deal from this project but also that I have a good deal more to learn. I have learnt the strengths of good communication within a team. This was due to the fact that when we did have a good amount of communication, we progressed a lot faster and accomplished more than when our communication was lacking. I take blame for some of the lack of communication as with a lot of other responsibilities, I let this project take the backburner for a little bit, as well as my communication with the rest of the team.
+- **Richard Dait:** Looking back, we have made tremendous progress. While our personal lives interfere with getting together, we do find the time to make things work. I am confident that every one of us will do our part to make this team succeed. As for the project, I have learned that certain factors, play an important role in food accessibility. Constructing the shiny app was frustrating at first, but with time and sheer determination, I was extremely satisfied with the outcome. One thing I would do differently is getting a head start. So far, I believe the project has turned the tide regarding coding. While I am not the best programmer, I have developed my identity as a coder and thinker. Coupled this with the ability to work well in a team, I could see myself as a programmer in some sort of capacity. I see this in my teammates as well.
+  
+  #### Appendix 3 Use of Envisioning Cards:
+  -  **Changing Hands**, Using this card for our dataset, there is one important question that is asked. How does the system change as the technology changes hands. Personally, I believe that especially regarding a dataset such as ours, as this technology changes hands, what we can do with the dataset grows as more people have access to it. Having a fresh opinion and person looking at our dataset means that we can have fresh opinions on how to solve the problem and to see if we are missing anything that we hadn't previously considered. This type of technology is only going to increase as this system changes hands.
+- **Direct Stakeholders**, Using this card for our dataset, the question that is brought up is how different types of people will be able to interact with our system differently. If a government worker were to use our system, they would be able to identify problem areas and try to actively solve the problem through some sort of plan or legislation. If a doctor were to use our system, they could take advantage of seeing low access to certain facilities as a way to know where to place a clinic to help people with low access to facilities in this case a hospital.
+- **Non-targeted Use**, Using this card for our dataset, another question that is brought up is how our system can be used for other purposes including negative ones. One potential circumstance of another use of system is for people in the corporate sector of supermarkets, they could use our system to see low access to supermarkets as a way to find out where to build a new one to help those people with low access.
+- Variation in Human Ability: We have learned so far that age, whether young or extremely old, play into an individual's ability to access fresh and nutritious food. As with this envisioning card, the system does not accommodate limited physical abilities. Distance and lack of transportation compound the issue of old age.
+- Long-Term Health and Well-Being: The system that is constructed within Washington State does have an effect on the overall health and well-being on those who lack access to fresh food. As with the envisioning card, technology (e.g., car, Uber eats, delivery) may have a positive impact on the direct stakeholders.
