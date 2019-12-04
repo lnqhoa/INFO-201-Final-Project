@@ -217,9 +217,10 @@ more_menu <- navbarMenu("More",
                                  h3(strong("Learn More About Us: Why Did We Choose Food Acccessibility?")),
                                  p(code("Richie"), "firmly believes we all have the right
                                  to fresh and nutritious food."),
-                                 p(code("Hoa Le"), "thinks ."),
-                                 p(code("Anna"), "says ."),
-                                 p(code("Jess"), "swears by ."),
+                                 p(code("Hoa Le"), "wanted to inquire about food trends in 
+                                        Seattle. However, data showed something more revealing."),
+                                 p(code("Anna"), "is intellectually curious about food insecurity."),
+                                 p(code("Jess"), "loves food and wants to see change."),
                                  ))
                                  
 
