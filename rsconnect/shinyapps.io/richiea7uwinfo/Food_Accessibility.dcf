@@ -5,8 +5,9 @@ account: richiea7uwinfo
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1526300
-bundleId: 2633828
+bundleId: 2642885
 url: https://richiea7uwinfo.shinyapps.io/Food_Accessibility/
-when: 1575326733.21025
+when: 1575527953.5939
 asMultiple: FALSE
 asStatic: FALSE
+ignoredFiles: .RData|README.md|data/FoodAccess_DataUSDA.xlsx|data/foodaccess.xlsx|GitHub Wiki/.Rhistory

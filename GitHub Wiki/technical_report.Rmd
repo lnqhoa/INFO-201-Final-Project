@@ -92,3 +92,7 @@ We are approaching the dataset with the understanding that this dataset can be d
 - **Non-targeted Use**, Using this card for our dataset, another question that is brought up is how our system can be used for other purposes including negative ones. One potential circumstance of another use of system is for people in the corporate sector of supermarkets, they could use our system to see low access to supermarkets as a way to find out where to build a new one to help those people with low access.
 - Variation in Human Ability: We have learned so far that age, whether young or extremely old, play into an individual's ability to access fresh and nutritious food. As with this envisioning card, the system does not accommodate limited physical abilities. Distance and lack of transportation compound the issue of old age.
 - Long-Term Health and Well-Being: The system that is constructed within Washington State does have an effect on the overall health and well-being on those who lack access to fresh food. As with the envisioning card, technology (e.g., car, Uber eats, delivery) may have a positive impact on the direct stakeholders.
+
+#### 8.0 Miscellaneous:
+* Shiny Application - https://richiea7uwinfo.shinyapps.io/Food_Accessibility/
+* Technical Report - https://github.com/lnqhoa/INFO-201-Final-Project/blob/master/GitHub%20Wiki/technical_report.Rmd

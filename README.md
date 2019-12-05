@@ -4,7 +4,7 @@ https://docs.google.com/document/d/1F7vgvRVfgNgIMLSuvXVlJBiP14CZIXyBqa_sJ3FOFss/
 
 # Appendix - Part 1: Report Outline
 
-## **"Food Availability in Washington State"**
+## **"Food Accessibility in Washington State"**
 
 #### Code Name: You Are What You Eat
 
@@ -24,8 +24,9 @@ https://docs.google.com/document/d/1F7vgvRVfgNgIMLSuvXVlJBiP14CZIXyBqa_sJ3FOFss/
 * 1.4 How Will It be Addressed? **We decided to break the data down by looking at how socio-economic factors play into the variation of quality of food consumed. Our project will examine how big of a player location and lack of transportation are. In most food deserts, fast-food restaurants outnumber grocery stores by a wide margin. This could explain why health related issues are abnormally high in these communities. Another culprit is race. A person's racial background may shine light on this matter. Lastly, we will look into income/affordability and what part it plays in the quality of food consumed by residents living in food deserts.**
 
 #### 2.0 Research Questions:
-* Question 1: What is the food and nutrient availability for consumption in Washington State, compared to the rest of the nation?
-* Question 2: How do socio-economic factors (location, income, race, ethnicity, etc.) contribute to food accessibility?
+* Question 1: In what ways does distance have an impact on food accessibility?
+* Question 2: How does a lack of vehicle access contribute to food inaccessibility?
+* Question 3: To what extent does income and location have an effect on access to fresh and nutritious food?
 
 #### 3.0 Possible Data Sets:
 * Data Set #1: Fruit and Vegetable Availability (Per Capita)
@@ -42,7 +43,7 @@ https://docs.google.com/document/d/1F7vgvRVfgNgIMLSuvXVlJBiP14CZIXyBqa_sJ3FOFss/
 
 *Fig 1: "At times during the year, these households were uncertain of having, or unable to acquire, enough food to meet the needs of all their members because they had insufficient money or other resources for food. Food-insecure households include those with low food security and very low food security."*
 
-![Source from UW West Coast Poverty Center Research](./GitHub Wiki/FoodInsecurity_byState_2008sma.jpg)
+![Source from UW West Coast Poverty Center Research](./www/FoodInsecurity2008.jpg)
 
 *Fig 2: "Based on research done at the University of Washington, the national rate for food insecurity is 12.2%, while in Washington State it is 11.1% showing the large number of households struggling with food insecurity in the state and how it compares to the national average, where there is no great difference."
 
@@ -65,3 +66,7 @@ We hope to develop our elementary coding and research skills, as well as collabo
 * Chapter 1 Key Elements of Healthy Eating Patterns. (n.d.). Retrieved from https://health.gov/dietaryguidelines/2015/guidelines/chapter-1/a-closer-look-inside-healthy-eating-patterns/.
 * Key Statistics & Graphics. (2019, September 4). Retrieved from https://www.ers.usda.gov/topics/food-nutrition-assistance/food-security-in-the-us/key-statistics-graphics.aspx.
 * Food Insecurity. (n.d.). Retrieved from https://depts.washington.edu/wcpc/food-insecurity.
+
+#### 8.0 Miscellaneous (i.e., links, reports, etc):
+* [Shinyapps.io](https://richiea7uwinfo.shinyapps.io/Food_Accessibility/)
+* [Technical Report](https://github.com/lnqhoa/INFO-201-Final-Project/blob/master/GitHub%20Wiki/technical_report.Rmd)
